@@ -12,4 +12,5 @@ The Game2048ChatGPT application has been extended to save the results of multipl
 
 Here is the distribution of the maximum tile value **maxTile** and the **score** for the **Expectimax** algorithm for different weights **zeroWeight**, which is involved in the heuristic evaluation function **evaluate()** of the game board. The **evaluate()** score significantly affects the choice of the next move in the game 2048.
 We obtain a similar histogram for the **Monte Carlo** method, but here there are more settings. The main ones are the number of experiments **simulations** and the weight coefficient **zeroWeightMC**, which is multiplied by the number of tiles with a zero value.
+<img src="https://github.com/BestKora/Game2048ChatGPTStatistics/blob/main/StatisticsMonteCarlo.gif" width="300"/> 
 
